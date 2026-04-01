@@ -196,11 +196,12 @@ h1, h2, h3 {
    HERO SECTION
    ========================================= */
 .hero {
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     position: relative;
-    padding-top: var(--header-height);
+    padding-top: calc(var(--header-height) + 3rem);
+    padding-bottom: 3rem;
 }
 
 .hero-bg {
