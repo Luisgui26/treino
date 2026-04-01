@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço Seguro | Psicologia Clínica</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav-logo">Dra. Nome da Psicóloga</a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#diferenciais" class="nav-link">Diferenciais</a></li>
+                    <li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <div class="nav-toggle" id="nav-toggle">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- 1. Hero Section -->
+        <section class="hero section" id="inicio">
+            <div class="hero-container container grid">
+                <div class="hero-data fade-in">
+                    <h1 class="hero-title">Um espaço seguro para cuidar da sua mente.</h1>
+                    <p class="hero-description">
+                        A psicoterapia é um encontro consigo mesmo. Juntos, podemos encontrar caminhos para uma vida mais equilibrada e com mais bem-estar emocional.
+                    </p>
+                    <a href="#contato" class="btn btn-primary">Agendar Consulta</a>
+                </div>
+                <!-- Imagem ilustrativa ou espaço reservado -->
+                <div class="hero-img-box fade-in">
+                    <img src="https://images.unsplash.com/photo-1544027993-37dbba8c2a0c?q=80&w=800&auto=format&fit=crop" alt="Psicóloga em momento de reflexão e calma" class="hero-img">
+                </div>
+            </div>
+            <!-- Background Suave -->
+            <div class="hero-bg"></div>
+        </section>
+
+        <!-- 2. Sobre -->
+        <section class="sobre section" id="sobre">
+            <div class="container grid sobre-container fade-in">
+                <div class="sobre-img-box">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop" alt="Foto da Dra. Nome da Psicóloga" class="sobre-img">
+                </div>
+                <div class="sobre-data">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <h3 class="sobre-subtitle">Acolhimento e Empatia</h3>
+                    <p class="sobre-description">
+                        Olá, sou a Dra. Nome, psicóloga clínica com vasta experiência no atendimento de jovens e adultos. Meu objetivo é oferecer uma escuta atenta, sem julgamentos, auxiliando você a compreender suas emoções e criar novas perspectivas.
+                    </p>
+                    <p class="sobre-description">
+                        Minha abordagem é baseada no acolhimento integral, entendendo cada ser humano como único. Trabalho para construir um ambiente seguro onde você possa ser vulnerável e, ao mesmo tempo, encontrar sua própria força interior.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Serviços -->
+        <section class="servicos section" id="servicos">
+            <div class="container fade-in">
+                <h2 class="section-title text-center">Meus Serviços</h2>
+                <div class="servicos-container grid">
+                    
+                    <div class="servicos-card">
+                        <svg class="servicos-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM11 19.93C7.05 19.43 4 16.05 4 12C4 7.95 7.05 4.57 11 4.07V19.93ZM13 4.07C16.95 4.57 20 7.95 20 12C20 16.05 16.95 19.43 13 19.93V4.07Z" fill="var(--color-primary)"/>
+                        </svg>
+                        <h3 class="servicos-title">Psicoterapia Individual</h3>
+                        <p class="servicos-description">Atendimentos focados no autoconhecimento, ansiedade, depressão e dificuldades de relacionamento, conduzidos em ambiente seguro.</p>
+                    </div>
+
+                    <div class="servicos-card">
+                        <svg class="servicos-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 11C17.66 11 18.99 9.66 18.99 8C18.99 6.34 17.66 5 16 5C14.34 5 13 6.34 13 8C13 9.66 14.34 11 16 11ZM8 11C9.66 11 10.99 9.66 10.99 8C10.99 6.34 9.66 5 8 5C6.34 5 5 6.34 5 8C5 9.66 6.34 11 8 11ZM8 13C5.67 13 1 14.17 1 16.5V19H15V16.5C15 14.17 10.33 13 8 13ZM16 13C15.71 13 15.38 13.02 15.03 13.05C16.19 13.89 17 15.02 17 16.5V19H23V16.5C23 14.17 18.33 13 16 13Z" fill="var(--color-primary)"/>
+                        </svg>
+                        <h3 class="servicos-title">Terapia de Casal</h3>
+                        <p class="servicos-description">Mediação e suporte para casais que buscam melhorar a comunicação e reestruturar a conexão afetiva.</p>
+                    </div>
+
+                    <div class="servicos-card">
+                        <svg class="servicos-icon" width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M21 16V14L13 9V3.5C13 2.67 12.33 2 11.5 2C10.67 2 10 2.67 10 3.5V9L2 14V16L10 13.5V19L8 20.5V22L11.5 21L15 22V20.5L13 19V13.5L21 16Z" fill="var(--color-primary)"/>
+                        </svg>
+                        <h3 class="servicos-title">Orientação Online</h3>
+                        <p class="servicos-description">Atendimentos virtuais com a mesma ética, sigilo e profundidade do psicólogo presencial, para quem mora longe ou precisa de praticidade.</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Diferenciais -->
+        <section class="diferenciais section" id="diferenciais">
+            <div class="container grid diferenciais-container fade-in">
+                <div class="diferenciais-data">
+                    <h2 class="section-title">Por que iniciar a terapia?</h2>
+                    <p class="diferenciais-description">
+                        O processo terapêutico é o seu momento. Ele permite que você explore questões profundas e desenvolva resiliência para lidar com as dificuldades do dia a dia.
+                    </p>
+                    
+                    <ul class="diferenciais-list">
+                        <li class="diferenciais-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="var(--color-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>Ambiente 100% confidencial e livre de julgamentos</span>
+                        </li>
+                        <li class="diferenciais-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="var(--color-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>Desenvolvimento do autoconhecimento e inteligência emocional</span>
+                        </li>
+                        <li class="diferenciais-item">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L9 17L4 12" stroke="var(--color-secondary)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                            <span>Foco no paciente, com acolhimento genuíno</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5. Contato -->
+        <section class="contato section" id="contato">
+            <div class="container grid contato-container fade-in">
+                <div class="contato-info">
+                    <h2 class="section-title">Vamos conversar?</h2>
+                    <p class="contato-description">
+                        Dê o primeiro passo para o seu bem-estar. Preencha o formulário ou entre em contato diretamente pelo WhatsApp para marcarmos uma sessão.
+                    </p>
+                </div>
+
+                <form action="#" class="contato-form" id="contato-form">
+                    <div class="contato-inputs">
+                        <div class="contato-content">
+                            <label for="nome" class="contato-label">Seu Nome</label>
+                            <input type="text" id="nome" class="contato-input" placeholder="Ex: Maria Silva" required>
+                            <span class="contato-error" id="error-nome">Por favor, insira seu nome.</span>
+                        </div>
+                        
+                        <div class="contato-content">
+                            <label for="email" class="contato-label">Seu Email</label>
+                            <input type="email" id="email" class="contato-input" placeholder="Ex: maria@email.com" required>
+                            <span class="contato-error" id="error-email">Por favor, insira um e-mail válido.</span>
+                        </div>
+                    </div>
+
+                    <div class="contato-content">
+                        <label for="mensagem" class="contato-label">Mensagem</label>
+                        <textarea id="mensagem" cols="30" rows="5" class="contato-input" placeholder="Como posso te ajudar?" required></textarea>
+                        <span class="contato-error" id="error-mensagem">A mensagem não pode estar vazia.</span>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-block">Enviar Mensagem</button>
+                    <p class="contato-success-message" id="success-message" style="display:none; color: var(--color-green); margin-top: 1rem;">Mensagem enviada com sucesso! Entrarei em contato em breve.</p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- 6. Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-content">
+                <a href="#" class="footer-logo">Dra. Nome</a>
+                <p class="footer-description">Psicologia Clínica e Psicoterapia</p>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#sobre" class="footer-link">Sobre Mim</a></li>
+                    <li><a href="#servicos" class="footer-link">Serviços</a></li>
+                    <li><a href="#contato" class="footer-link">Contato</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-content">
+                <h3 class="footer-title">Contatos</h3>
+                <p class="footer-social-text">contato@psicologa.com.br</p>
+                <p class="footer-social-text">(11) 99999-9999</p>
+            </div>
+        </div>
+        <p class="footer-copy">&#169; 2026 Dra. Nome da Psicóloga. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Botão Flutuante WhatsApp -->
+    <a href="https://wa.me/SEUNUMERO" class="whatsapp-btn" target="_blank" aria-label="Fale comigo no WhatsApp">
+        <svg fill="currentColor" width="30" height="30" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.0001 2.00281C6.48564 2.00281 2.00281 6.48564 2.00281 12.0001C2.00281 13.9317 2.55998 15.7925 3.58525 17.3916L2.30825 21.6148L6.68538 20.3546C8.28638 21.2828 10.1065 21.8021 12.0001 21.8021C17.5146 21.8021 21.9974 17.3193 21.9974 12.0001C21.9974 6.48564 17.5146 2.00281 12.0001 2.00281ZM16.6661 16.4828C16.4764 17.0181 15.7196 17.5029 15.1508 17.6166C14.733 17.7 14.2046 17.7554 12.1819 16.917C9.6015 15.8454 7.92544 13.2309 7.79469 13.0603C7.66394 12.8897 6.69619 11.5991 6.69619 10.2726C6.69619 8.94605 7.35956 8.30155 7.64394 8.01718C7.88944 7.77168 8.27269 7.64393 8.65081 7.64393C8.77581 7.64393 8.88944 7.65255 8.98319 7.69743C9.21981 7.80293 9.42394 8.30155 9.45244 8.3683C9.48094 8.43505 9.54769 8.59543 9.58581 8.67193C9.62394 8.74843 9.69981 8.86218 9.77569 8.95668C9.84969 9.0528 9.93669 9.1578 10.0126 9.2433C10.0981 9.3378 10.1836 9.4418 10.2596 9.5273C10.3736 9.6698 10.4966 9.83105 10.3639 10.0963L10.2119 10.3999C10.0506 10.7224 9.89869 10.8744 9.74669 11.0264C9.59469 11.1784 9.49969 11.2924 9.61369 11.4821C9.72769 11.6719 10.1349 12.3359 10.7329 12.8669C11.5039 13.5516 12.1484 13.7601 12.3381 13.8546C12.5279 13.9491 12.7554 13.9304 12.8884 13.7884L13.1164 13.5034C13.3346 13.2184 13.5814 13.0664 13.8474 13.1804C14.1134 13.2944 15.4216 13.9389 15.6876 14.0719C15.9536 14.2049 16.1246 14.2714 16.1816 14.3664C16.2386 14.4614 16.2386 14.9351 16.0489 15.4704C15.8591 16.0058 15.1508 16.4828 15.1508 16.4828H16.6661Z" />
+        </svg>
+    </a>
+
+    <!-- JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
