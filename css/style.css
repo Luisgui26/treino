@@ -2,20 +2,19 @@
    VARIABLES
    ========================================= */
 :root {
-    /* Colors */
-    --color-primary: #A7C7E7;    /* Azul claro */
-    --color-primary-dark: #8DB5D9;
-    --color-secondary: #B7E4C7;  /* Verde suave */
-    --color-bg: #F8F5F2;         /* Bege/off-white */
-    --color-text: #4A4A4A;       /* Cinza escuro para leitura confortável */
-    --color-title: #2C3E50;      /* Azul marinho suave para títulos */
+    /* Colors - Earthy & Warm (DLT Well Collective Inspired) */
+    --color-primary: #A28268;    /* Terracotta / clay */
+    --color-primary-dark: #8C6A50;
+    --color-secondary: #89967A;  /* Sage green */
+    --color-bg: #F4F1ED;         /* Warm Sand base */
+    --color-text: #5A4E45;       /* Soft dark brown */
+    --color-title: #3A322C;      /* Deep espresso */
     --color-white: #FFFFFF;
-    --color-error: #E07A5F;
-    --color-green: #52B788;
+    --color-accent: #E8D8CD;     /* Soft peach/beige for highlights */
     
     /* Typography */
-    --font-heading: 'Lora', serif;
-    --font-body: 'Poppins', sans-serif;
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Lora', serif;
     
     /* Size & Espacing */
     --header-height: 4rem;
@@ -210,7 +209,7 @@ h1, h2, h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(248,245,242,1) 0%, rgba(167,199,231,0.2) 100%);
+    background: var(--color-bg);
     z-index: -1;
 }
 
@@ -263,27 +262,37 @@ h1, h2, h3 {
    SERVIÇOS
    ========================================= */
 .servicos-card {
-    background-color: var(--color-white);
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.03);
+    background-color: var(--color-bg);
+    padding: 3rem 2rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 4px;
     transition: var(--transition);
-    border-top: 4px solid transparent;
+    text-align: center;
 }
 
 .servicos-card:hover {
     transform: translateY(-5px);
-    border-top-color: var(--color-primary);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    background-color: var(--color-accent);
 }
 
-.servicos-icon {
+.servicos-number {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 3rem;
+    font-style: italic;
+    color: var(--color-primary);
     margin-bottom: 1rem;
+    line-height: 1;
 }
 
 .servicos-title {
-    font-size: 1.25rem;
-    margin-bottom: 0.5rem;
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.servicos-description {
+    font-size: 0.95rem;
 }
 
 /* =========================================
